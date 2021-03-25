@@ -918,13 +918,18 @@ body {
   margin-bottom: 30px;
 }
 
+.modal-form .user-term-desc a {
+  margin-left: 3px;
+  color: var(--accent-color);
+}
+
 .modal-form .user-term-desc::before {
   display: block;
   content: '';
   width: 16px;
   height: 15px;
   background-image: url('../images/vector-uncheck.svg');
-  margin-right: 9px;
+  margin-right: 8px;
 }
 
 .modal-form .term:checked + .user-term-desc::before {
